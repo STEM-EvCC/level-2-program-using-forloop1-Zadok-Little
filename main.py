@@ -5,6 +5,7 @@ mission_years = [1969, 1986, 2012, 1975, 1996, 1990, 1970]
 mission_success = [True, False, True, True, True, True, False]
 
 # Counts the total number of space missions.
-# Counts the number of successful missions.
-# Calculates the success rate of the missions.
-# Lists all the missions that were launched before the year 2000.
+print(f"Total number of missions: {len(mission_names)}")
+print(f"Number of successful missions: {successful_missions(mission_success)}")
+print(f"Success rate: {success_rate(mission_success):.2f}%")
+pre2000_missions(mission_names, mission_years)
