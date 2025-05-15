@@ -6,7 +6,7 @@ mission_success = [True, False, True, True, True, True, False]
 
 # Counts the total number of space missions.
 # prints total number of missions
-print(f"Total number of missions: {len(mission_names)}")
+print(f"\nTotal number of missions: {len(mission_names)}")
 
 # prints amount of successful missions
 print(f"Number of successful missions: {successful_missions(mission_success)}")
