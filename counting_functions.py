@@ -9,12 +9,20 @@ def successful_missions(mission_success):
     
     return counter
 
+
+#_________________________________________________________________________________
+
+
 # calculate success rate
 def success_rate(mission_success):
 
     rate = float((successful_missions(mission_success) / len(mission_success)) * 100)
 
     return rate
+
+
+#_________________________________________________________________________________
+
 
 # print missions before 2000
 def pre2000_missions(mission_names, mission_years):
